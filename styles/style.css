@@ -6,6 +6,8 @@
   --para-font: 1rem;
   --small-heading: 1.75rem;
   --head-foot-heading: 1.5rem;
+  --inter-font: Inter;
+  --roboto-font: Roboto;
 }
 
 * {
@@ -14,8 +16,6 @@
 
 /* Header Starts */
 
-header {
-}
 /* navbar starts */
 
 .navbar-container {
@@ -110,3 +110,116 @@ header {
 /* Header ends */
 
 /* Main section starts */
+
+/* logo section starts */
+
+.logo-container {
+  margin: 30px 165px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid rgba(192, 204, 218);
+  border-bottom: 1px solid rgba(192, 204, 218);
+  padding: 40px 0;
+}
+/* logo section ends */
+
+/* Collection section starts */
+
+.collection {
+  margin: 0px 195px;
+}
+
+.collection-heading {
+  color: #3a3a3a;
+  font-family: var(--poppins-font);
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.collection-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  max-width: 330px;
+  padding: 17px 15px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.item-name {
+  color: #18191f;
+  font-family: var(--poppins-font);
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.item-price {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: var(--inter-font);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.rating-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.stars {
+  color: #fb8200;
+}
+
+.rating {
+  color: #5e6366;
+  font-family: var(--roboto-font);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.item-details {
+  color: #787885;
+  font-family: var(--inter-font);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.see-more {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(224, 44, 109, 0.87);
+  font-family: var(--poppins-font);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  justify-content: right;
+}
+
+/* .abcd {
+  display: flex;
+  justify-content: right;
+} */
+
+/* Collection section ends */

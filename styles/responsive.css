@@ -36,4 +36,21 @@
   .width {
     width: 100%;
   }
+
+  .logo-container {
+    margin: 50px 40px;
+    gap: 20px;
+  }
+
+  .logo-container img {
+    max-width: 100%;
+  }
+
+  .collection {
+    margin: 0 15px;
+  }
+
+  .collection-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
