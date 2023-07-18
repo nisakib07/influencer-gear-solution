@@ -149,7 +149,7 @@
 }
 
 .card {
-  max-width: 330px;
+  /* max-width: 330px; */
   padding: 17px 15px;
   border-radius: 5px;
   background: #fff;
