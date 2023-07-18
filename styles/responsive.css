@@ -53,4 +53,21 @@
   .collection-container {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .item-details {
+    font-weight: 400;
+    max-width: 190px;
+  }
+
+  .feat-container {
+    flex-direction: column-reverse;
+    margin: 50px 20px;
+    text-align: center;
+  }
+  .feat-img img {
+    width: 100%;
+  }
+  .feat-heading {
+    font-size: 1.5rem;
+  }
 }

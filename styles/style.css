@@ -203,6 +203,7 @@
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 700;
+  max-width: 180px;
 }
 
 .see-more {
@@ -217,9 +218,47 @@
   justify-content: right;
 }
 
-/* .abcd {
-  display: flex;
-  justify-content: right;
-} */
-
 /* Collection section ends */
+
+/* Featured Section starts */
+
+.feat-container {
+  display: flex;
+  margin: 100px 165px;
+  align-items: center;
+  gap: 96px;
+}
+
+.feat-heading {
+  color: #0a0826;
+  font-family: var(--poppins-font);
+  font-size: 2.375rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.feat-desc {
+  color: #6c6c6c;
+  font-family: var(--poppins-font);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 16px;
+  max-width: 500px;
+}
+
+.feat-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 24px;
+  gap: 8px;
+  background: #e02c6d;
+  border: none;
+  color: #fff;
+  font-family: var(--poppins-font);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+}
+/* Featured Section ends */
