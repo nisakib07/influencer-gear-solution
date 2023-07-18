@@ -64,9 +64,11 @@
     margin: 50px 20px;
     text-align: center;
   }
-  .feat-img img {
+
+  .feat-img {
     width: 100%;
   }
+
   .feat-heading {
     font-size: 1.5rem;
   }
