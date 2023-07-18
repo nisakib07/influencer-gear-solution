@@ -8,4 +8,32 @@
     flex-direction: column;
     gap: 5px;
   }
+
+  .banner {
+    flex-direction: column-reverse;
+    padding: 0px 20px;
+  }
+
+  .banner-text {
+    text-align: center;
+  }
+  .banner-heading {
+    font-size: 1.75rem;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  .banner-img {
+    margin-left: 0px;
+  }
+
+  .banner-img img {
+    width: 100%;
+  }
+
+  .width {
+    width: 100%;
+  }
 }

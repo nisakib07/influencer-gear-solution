@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@100;400;500;600&family=Roboto:wght@300;400;500&display=swap");
 
+/* Shared section */
 :root {
   --poppins-font: Poppins;
   --para-font: 1rem;
@@ -7,17 +8,22 @@
   --head-foot-heading: 1.5rem;
 }
 
+* {
+  margin: 0px;
+}
+
 /* Header Starts */
 
+header {
+}
 /* navbar starts */
 
 .navbar-container {
   display: flex;
-  /* max-width: 1440px; */
-  padding: 0px 120px;
   margin: 87px auto 0;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 120px;
 }
 
 .nav-items-container {
@@ -48,4 +54,59 @@
 
 /* navbar ends */
 
+/* banner starts */
+
+.banner {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0px 120px;
+}
+
+.banner-heading {
+  color: #3a3a3a;
+  font-family: var(--poppins-font);
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.banner-desc {
+  color: #3a3a3a;
+  font-family: var(--poppins-font);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.banner-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 41px;
+  background: #e02c6d;
+  border: none;
+  color: #fff;
+  font-family: var(--poppins-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 10px 24px;
+}
+.banner-img {
+  background-image: url("../images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 300px;
+}
+.width {
+  width: 50%;
+}
+
+/* banner ends */
+
 /* Header ends */
+
+/* Main section starts */
